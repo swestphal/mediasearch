@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
     "node-sass": "4.14",
     "prettier": "^2.1.1",
     "react": "^17.0.1",
@@ -42,5 +44,10 @@
   },
   "devDependencies": {
     "eslint": "^7.16.0"
+  },
+  "react-dotenv": {
+    "whitelist": [
+      "YOUTUBE_KEY"
+    ]
   }
 }
