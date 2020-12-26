@@ -15,11 +15,11 @@ class SearchBar extends React.Component {
   };
   render() {
     return (
-      <div className="container ui segment">
+      <div className="ui segment">
         <div className={`${styles.SearchBar} `}>
           <form onSubmit={this.onSubmit} className="ui form">
             <div className="field">
-              <label htmlFor="">Video Search</label>
+              <label htmlFor="">Movie Search</label>
               <input
                 type="text"
                 value={this.state.term}
